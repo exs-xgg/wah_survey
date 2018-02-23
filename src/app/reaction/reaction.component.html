@@ -1,0 +1,24 @@
+<body oncontextmenu="return false;">
+		<div class="col-full top">
+			<div class="col-logo">
+				<img class="logo" src="{{Wah}}" alt="WAH Logo">
+			</div>
+			<div class="titlebar" >
+				<p class="title">Kumusta ang aming serbisyo?</p>
+			</div>
+			<div class="col-logo">
+				<img class="logo logo2" src="{{LGU}}" alt="LGU.png">
+			</div>
+		</div>
+	
+		<div class="reactions">
+			<a routerLink="/category" routerLinkActive="active"><button (click)="setReaction(0)" class="col-react reaction">
+				<img class="emoji" src="{{Sad}}" alt="Sad Emoji"><br>
+				<p class="sad">SAD</p></button>
+			</a>
+			<a routerLink="/category" routerLinkActive="active"><button (click)="setReaction(1)" class="col-react reaction reaction2">
+				<img class="emoji" src="{{Happy}}" alt="Happy Emoji">
+				<p class="happy">HAPPY</p></button>
+			</a>
+		</div>
+</body>

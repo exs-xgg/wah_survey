@@ -1,0 +1,58 @@
+.title{
+	font-size:5vw;}
+
+.reactions{
+	margin-left: 4vw;
+	width:100%;}
+
+.reaction{
+	border-radius:1vw;
+	margin-top:10vw;
+	border: 0.4vw solid #e74c3c;
+	background-color: #feecec;
+	height:37vw;
+	color:#e74c3c;
+	box-shadow: 0.5vw 0.75vw #646363;}
+
+.reaction:hover{
+	border: 0.75vw double #e74c3c;}
+
+.reaction:active{
+	background-color: #e74c3c;
+	color:white;
+	margin-top:10.75vw;}
+
+.emoji{
+	height:24vw;
+	margin-top:1vw;}
+
+.sad{
+	color:#e74c3c;
+	font-size:8vw;
+	font-weight: bold;}
+
+.reaction2{
+	border: 0.4vw solid #089d2b;
+	margin-left: 3vw;
+	background-color:#ddfce0;
+	color:  #089d2b;}
+
+.reaction2:hover{
+	border: 0.75vw double #089d2b;
+	background-color: #ddfce0;}
+
+.reaction2:active{
+	background-color: #089d2b;
+	color:white;
+	margin-top:10.75vw;}
+
+.happy{
+	font-size:8vw;
+	color:#089d2b;
+	font-weight: bold;}
+
+.reaction2:active .happy{
+	color: white; }
+
+.reaction:active .sad{
+	color: white; }

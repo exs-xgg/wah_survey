@@ -1,0 +1,73 @@
+<body oncontextmenu="return false;">
+	<div class="top">
+		<div class="col-logo">
+			<img class="logo" src="{{Wah}}" alt="WAH.png">
+		</div>
+		<div class="titlebar">
+			<p class="title">CLINIC FEEDBACK</p>
+		</div>
+		<div class="col-logo">
+			<img class="logo logo2" src="{{LGU}}" alt="LGU.png">
+		</div>
+	</div>
+
+		<div class="col-body consultbar">
+			<div class="consult">
+				<p class="txtconsult">CONSULTATION NO.</p>
+			</div>
+			
+			<div class="col-5">
+				<input type="text" [value]="displayText" class="txtinput" readonly>
+			</div>
+
+			<a routerLink="/reaction" routerLinkActive="active"><div class="col-2 ok">
+				<button type="button" class="oktxt">OK</button>
+			</div></a>
+		</div>
+	
+		<div class="col-full">
+			<div class="col-button button">
+				<button (click)="getNum(1)" class="buttontxt">1</button>
+			</div>
+			<div class="col-button button">
+				<button (click)="getNum(2)" class="buttontxt">2</button>
+			</div>
+			<div class="col-button button">
+				<button (click)="getNum(3)" class="buttontxt">3</button>
+			</div>
+		</div>
+
+		<div class="col-full">
+			<div class="col-button button">
+				<button (click)="getNum(4)" class="buttontxt">4</button>
+			</div>
+			<div class="col-button button">
+				<button (click)="getNum(5)" class="buttontxt">5</button>
+			</div>
+			<div class="col-button button">
+				<button (click)="getNum(6)" class="buttontxt">6</button>
+			</div>
+		</div>
+
+		<div class="col-full">
+			<div class="col-button button">
+				<button (click)="getNum(7)" class="buttontxt">7</button>
+			</div>
+			<div class="col-button button">
+				<button (click)="getNum(8)" class="buttontxt">8</button>
+			</div>
+			<div class="col-button button">
+				<button (click)="getNum(9)" class="buttontxt">9</button>
+			</div>
+		</div>
+
+		<div class="col-full">
+			<div class="col-button space"></div>
+			<div class="col-button button">
+				<button (click)="getNum(0)" class="buttontxt">0</button>
+			</div>
+			<div class="col-button button">
+				<button (click)="clear()" class="buttontxt redbutton ">Clear</button>
+			</div>
+		</div>		
+	</body>

@@ -1,0 +1,41 @@
+.title2{
+	font-size:4vw;}
+
+.top2{
+	height:10vw;}
+
+.category{
+	border-radius:1vw;
+	position:relative;
+	margin-top:12.5vw;
+	margin-left: 2.5vw;
+	border: 0.5vw solid #894fb6;
+	background-color: #f5e4fc;	
+	height:auto;
+	box-shadow: 0.5vw 0.75vw #646363;}
+
+.category:hover{
+	border:0.5vw double #894fb6;}
+
+.category:active .categorytxt { color: white; }
+.category:active .categorytxt2 { color: white; }
+
+.category:active{
+	background-color: #894fb6;	
+	margin-top:13.25vw;}
+
+.categorypic{
+	height:25vw;
+	width:90%;}
+
+.categorytxt{
+	font-size:3.8vw;
+	color:black;
+	margin-top: 24vw;	
+	width:100%;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:normal;}
+
+.categorytxt2{
+	margin-top:29vw; }

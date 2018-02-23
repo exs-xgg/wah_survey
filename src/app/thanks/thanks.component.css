@@ -1,0 +1,43 @@
+.title{
+	font-size:5vw;}
+
+.thank{
+	margin-top:10vw;
+	vertical-align:middle;
+	text-align:center;
+	position:absolute;
+	width: 100%;
+	font-size:8vw;
+	color:black;
+	width:100%;}
+
+.credit{
+	margin-top:22vw;
+	position:absolute;
+	font-size:2.5vw;
+	color:black;}
+
+.center{
+	width:100%;
+	vertical-align:middle;
+	text-align:center;}
+
+.officiallogo{
+	position:absolute;
+	width:35%;
+	margin-left:-17vw;
+}
+
+.LGUlogo{
+	position:absolute;
+	width:22%;
+	margin-top:1vw;
+	margin-left:22vw;
+}
+
+.TSUlogo{
+	position:absolute;
+	width:22%;
+	margin-top:1vw;
+	margin-left:-43vw;
+}
